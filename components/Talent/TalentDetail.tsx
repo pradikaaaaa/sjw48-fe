@@ -19,18 +19,19 @@ const TalentDetail = ({url}:{url:string}) => {
     },)
     const [loading, setLoading] = useState(true)
 
-    const getDetail = () => {
+    // const getDetail = () => {
+      
+    // }
+
+    useEffect(()=>{
+
       setLoading(true)
       const hasil = talentData.find(({slug}) => slug === url)
 
       // console.log(hasil)
       setDetail(hasil)
       setLoading(false)
-    }
-
-    useEffect(()=>{
-      getDetail()
-    },[detail])
+    },[])
 
     return (
         <>
