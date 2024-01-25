@@ -15,15 +15,14 @@ const TalentSectionOne = () => {
                     /> */}
                     {
                         talentData.map((talentItem, index)=> (
-                           
-                            <TeamCard
-                                id={talentItem.id}
-                                name={talentItem.name}
-                                profession={talentItem.job}
-                                imageSrc={talentItem.image}
-                                slug={talentItem.slug}
-                            />
-                            
+                            <div key={talentItem.id} className="w-full px-4 md:w-1/2 xl:w-1/4">
+                                <TeamCard
+                                    name={talentItem.name}
+                                    profession={talentItem.job}
+                                    imageSrc={talentItem.image}
+                                    slug={talentItem.slug}
+                                />
+                            </div>
                         ))
                     }
 
