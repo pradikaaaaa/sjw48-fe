@@ -2,10 +2,10 @@
 
 import Link from "next/link";
 
-const TeamCard = ({ imageSrc, name, profession, slug }) => {
+const TeamCard = ({ id, imageSrc, name, profession, slug }) => {
   return (
     <>
-      <div className="w-full px-4 md:w-1/2 xl:w-1/4">
+      <div className="w-full px-4 md:w-1/2 xl:w-1/4" key={id}>
         <div className="mx-auto mb-10 w-full max-w-[370px]">
           <div className="relative overflow-hidden rounded-lg">
             <img src={imageSrc} alt="" className="w-full" />
