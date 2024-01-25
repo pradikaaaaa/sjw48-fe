@@ -9,18 +9,28 @@ import { Talent } from "@/types/talent";
 
 const TalentDetail = ({url}:{url:string}) => {
 
-    const [detail, setDetail] = useState<Talent>()
+    const [detail, setDetail] = useState<Talent>({
+      id : 0,
+      slug : "",
+      name : "",
+      job : "",
+      image : "",
+      description : ""
+    },)
+    const [loading, setLoading] = useState(true)
 
-    // const getDetail = () => {
-    //   const hasil = talentData.find(({slug}) => slug === url)
+    const getDetail = () => {
+      setLoading(true)
+      const hasil = talentData.find(({slug}) => slug === url)
 
-    //   // console.log(hasil)
-    //   setDetail(hasil)
-    // }
+      // console.log(hasil)
+      setDetail(hasil)
+      setLoading(false)
+    }
 
-    // useEffect(()=>{
-    //   getDetail()
-    // },[getDetail])
+    useEffect(()=>{
+      getDetail()
+    },[detail])
 
     return (
         <>
@@ -657,13 +667,13 @@ const TalentDetail = ({url}:{url:string}) => {
                       <i>Menurut gue oshi itu privasi. Sama kaya nanya agama. Buat apa lo tau oshi gue, buat apa lo tau agama gue. Tapi ...</i>
                     </span> */}
                     <h2 className="mb-5 text-3xl font-bold text-dark dark:text-white sm:text-[40px]/[48px]">
-                     {/* {detail.name} */}
+                    {detail.name}
                     </h2>
                     <p className="mb-5 text-base text-body-color dark:text-dark-6">
-                      Dikenal sebagai <i>Content Creator</i> yang suka marah-marah dan menjelekkan wota dan terkenal oposisi dengan JOT.
+                      {detail.description}
                     </p>
                     <p className="mb-8 text-base text-body-color dark:text-dark-6">
-                    Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+                      {/* Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. */}
                     </p>
                     {/* <a
                       href="javascript:void(0)"
