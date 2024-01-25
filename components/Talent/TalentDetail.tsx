@@ -11,16 +11,16 @@ const TalentDetail = ({url}:{url:string}) => {
 
     const [detail, setDetail] = useState<Talent>()
 
-    const getDetail = () => {
-      const hasil = talentData.find(({slug}) => slug === url)
+    // const getDetail = () => {
+    //   const hasil = talentData.find(({slug}) => slug === url)
 
-      // console.log(hasil)
-      setDetail(hasil)
-    }
+    //   // console.log(hasil)
+    //   setDetail(hasil)
+    // }
 
-    useEffect(()=>{
-      getDetail()
-    },[getDetail])
+    // useEffect(()=>{
+    //   getDetail()
+    // },[getDetail])
 
     return (
         <>
