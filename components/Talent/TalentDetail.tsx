@@ -2,10 +2,9 @@
 
 import Image from "next/image"
 import { useEffect, useState } from "react";
-import { FaInstagram, FaTiktok } from "react-icons/fa";
-import { FaXTwitter } from "react-icons/fa6";
 import talentData from "@/data/talent";
 import { Talent } from "@/types/talent";
+import TalentBio from "./TalentBio";
 
 const TalentDetail = ({url}:{url:string}) => {
 
@@ -683,6 +682,10 @@ const TalentDetail = ({url}:{url:string}) => {
                       Get Started
                     </a> */}
 
+                    {/* ================================================= */}
+                    <TalentBio />
+                    {/* ================================================= */}
+{/* 
                     <div className="flex items-center">
                     <a>
                         <FaInstagram/>
@@ -695,7 +698,7 @@ const TalentDetail = ({url}:{url:string}) => {
                     <a>
                         <FaTiktok />
                     </a>
-                    </div>
+                    </div> */}
                    
 
                   </div>
