@@ -6,7 +6,7 @@ const talentData: Talent[] = [
         slug : "asmara",
         name : "Asmara",
         job : "Komika",
-        image : "https://pbs.twimg.com/profile_images/1749025934483791872/f5DRh-ch_400x400.jpg",
+        image : "https://github.com/pradikaaaaa/kotak-penyimpanan/blob/main/sjw48/image/kabesha/asmara.jpg?raw=true",
         description : "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book."
     },
     {
@@ -14,7 +14,7 @@ const talentData: Talent[] = [
         slug : "abeduh",
         name : "Abeduh",
         job : "Komika",
-        image : "https://pbs.twimg.com/profile_images/1688200178686476288/W4MsYQjK_400x400.jpg",
+        image : "https://github.com/pradikaaaaa/kotak-penyimpanan/blob/main/sjw48/image/kabesha/abduh.jpg?raw=true",
         description : "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book."
     },
     {
@@ -22,7 +22,7 @@ const talentData: Talent[] = [
         slug : "abah-wiwik",
         name : "Abah Wiwik",
         job : "Komika / MC",
-        image : "https://pbs.twimg.com/profile_images/1690608951329734656/VBNu0Yaw_400x400.jpg",
+        image : "https://github.com/pradikaaaaa/kotak-penyimpanan/blob/main/sjw48/image/kabesha/wiwiek.jpg?raw=true",
         description : "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book."
     },
     {
@@ -30,7 +30,7 @@ const talentData: Talent[] = [
         slug : "bimkus",
         name : "Bimkus",
         job : "Komika",
-        image : "https://pbs.twimg.com/profile_images/1734791690471493632/W-edvTHP_400x400.jpg",
+        image : "https://github.com/pradikaaaaa/kotak-penyimpanan/blob/main/sjw48/image/kabesha/bimfuz.jpg?raw=true",
         description : "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book."
     },
     {
@@ -38,7 +38,7 @@ const talentData: Talent[] = [
         slug : "dimas-sa",
         name : "Dimas SA",
         job : "Komika / MC",
-        image : "https://pbs.twimg.com/profile_images/1709790024101978112/d_xKtxcR_400x400.jpg",
+        image : "https://github.com/pradikaaaaa/kotak-penyimpanan/blob/main/sjw48/image/kabesha/dimas.jpg?raw=true",
         description : "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book."
     },
     {
@@ -46,7 +46,7 @@ const talentData: Talent[] = [
         slug : "valen",
         name : "Valen",
         job : "MC",
-        image : "https://pbs.twimg.com/profile_images/1711225091651223552/xRC60F0N_400x400.jpg",
+        image : "https://github.com/pradikaaaaa/kotak-penyimpanan/blob/main/sjw48/image/kabesha/valen.jpg?raw=true",
         description : "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book."
     },
     {
@@ -54,7 +54,7 @@ const talentData: Talent[] = [
         slug : "pan-pan",
         name : "Pan Pan",
         job : "Komika",
-        image : "https://pbs.twimg.com/profile_images/1731809791440494592/YA4f4Rum_400x400.jpg",
+        image : "https://github.com/pradikaaaaa/kotak-penyimpanan/blob/main/sjw48/image/kabesha/panpan.jpg?raw=true",
         description : "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book."
     },
     {
@@ -62,17 +62,17 @@ const talentData: Talent[] = [
         slug : "rafli-tarigan",
         name : "Rafli Tarigan",
         job : "Komika / MC",
-        image : "https://pbs.twimg.com/profile_images/1740749904627249153/k1Ta0lDj_400x400.jpg",
+        image : "https://github.com/pradikaaaaa/kotak-penyimpanan/blob/main/sjw48/image/kabesha/rafli.jpg?raw=true",
         description : "Dikenal sebagai Content Creator yang suka marah-marah dan menjelekkan wota dan terkenal oposisi dengan JOT."
     },
-    {
-        id : 9,
-        slug : "tara-haes",
-        name : "Tara Haes",
-        job : "MC",
-        image : "https://pbs.twimg.com/profile_images/1747302895492673536/-3fOm6l4_400x400.jpg",
-        description : "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book."
-    },
+    // {
+    //     id : 9,
+    //     slug : "tara-haes",
+    //     name : "Tara Haes",
+    //     job : "MC",
+    //     image : "https://pbs.twimg.com/profile_images/1747302895492673536/-3fOm6l4_400x400.jpg",
+    //     description : "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book."
+    // },
     {
         id : 10,
         slug : "yahuya",
